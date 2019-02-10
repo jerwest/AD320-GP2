@@ -79,6 +79,7 @@ As a user, I want to be notified when an invalid entry is entered into a form fi
 AND
 
 As a user, I want to see my newly added records after they are submitted.
+
 If you follow this paradigm, your one user story that is a large chunk of work is now 3 smaller tasks that combine to accomplish the same goal. They can be completed faster and make it easier to split up the work with teammates.
 
 - Add 10 new user stories to your project. This project will have one more sprint than the last, and since you have all  created a LAMP prototype of the project, development should be able to proceed faster. What additional functionality you choose to add to your app is up to you. Note, that completion of all user stories is not required for the project. You can have "nice-to-have" features that you can work on after your core stories for your minimum viable product (Links to an external site.)Links to an external site. have been developed.
