@@ -10,28 +10,43 @@ a {
 /*Coping Nav properties from GP1
 *************************************/
 /*************Header**********/
-
-header img {
+div#header{
+  width: 100%;
+  margin-bottom: 10px;
+  margin-bottom: 2%;
+}
+img.header {
     float: left;
-    margin: 3%;
+    margin-left: 3%;
+}
+
+img#logo{
+  float:right;
+
 }
 
 /********Ended Header**********/
 /*Strip the ul of padding and list styling*/
 
+
+nav {
+    height: 50px;
+    clear: both;
+    margin-top: 2%;
+    /* border: 2px solid #2D1D09; */
+}
+nav ul{
+    border: 2px solid #2D1D09;
+    margin-top: 2%;
+}
 nav li {
   width: 20%;
   display: inline-block;
-}
-nav {
-    height: 50px;
-    margin-bottom: 20px;
 
-    /* border: 2px solid #2D1D09; */
 }
 nav li a {
 	display:block;
-	height: 50px;
+
 	text-align: center;
 	line-height: 50px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
