@@ -4,5 +4,85 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  /*color: #00B7FF;*/
+}
+
+/*Coping Nav properties from GP1
+*************************************/
+/*************Header**********/
+
+header img {
+    float: left;
+    margin: 3%;
+}
+
+/********Ended Header**********/
+/*Strip the ul of padding and list styling*/
+
+nav li {
+  width: 20%;
+  display: inline-block;
+}
+nav {
+    height: 50px;
+    margin-bottom: 20px;
+
+    /* border: 2px solid #2D1D09; */
+}
+nav li a {
+	display:block;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #2D1D09;
+	background: #C7AC81;
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+nav li:hover a {
+	background: #2D1D09;
+    color: #C7AC81;
+/*    border: 1px solid #2D1D09;*/
+}
+
+/*Style for dropdown links*/
+nav li:hover ul a {
+	background: #2D1D09;
+	color: #C7AC81;
+	height: 40px;
+	line-height: 40px;
+/*    width: inherit;*/
+}
+
+/*Hover state for dropdown links*/
+nav li:hover ul a:hover {
+	background: #C7AC81;
+	color: #2D1D09;
+}
+
+/*ended Nav **********************************e/
+
+/***************FOOTER***************/
+footer {
+	background: #C7AC81;
+	height: 50px;
+	line-height: 50px;
+	clear: both;
+	border: 2px solid #2D1D09;
+}
+
+footer li {
+	float: left;
+	width: 33.33%;
+	list-style-type: none;
+	text-align: center;
+  display: inline-block;
+}
+
+footer ul {
+	display: block;
+	font-weight: bold;
+	font-size: 1em;
 }
