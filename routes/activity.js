@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
-  res.render('activity', { title: 'Express' });
+  res.render('activity', { title: 'Activity Page' });
 
 });
 
