@@ -4,5 +4,101 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  /*color: #00B7FF;*/
+}
+
+/*Coping Nav properties from GP1
+*************************************/
+/*************Header**********/
+div#header{
+  width: 100%;
+  margin-bottom: 10px;
+  margin-bottom: 2%;
+}
+img.header {
+    float: left;
+    margin-left: 3%;
+}
+
+img#logo{
+  float:right;
+  margin-bottom: 2%;
+
+}
+
+/********Ended Header**********/
+/*Strip the ul of padding and list styling*/
+
+
+nav {
+    height: 50px;
+    clear: both;
+    margin-top: 2%;
+    /* border: 2px solid #2D1D09; */
+}
+nav ul{
+    border: 2px solid #2D1D09;
+    margin-top: 2%;
+}
+nav li {
+  width: 20%;
+  display: inline-block;
+
+}
+nav li a {
+	display:block;
+
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #2D1D09;
+	background: #C7AC81;
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+nav li:hover a {
+	background: #2D1D09;
+    color: #C7AC81;
+/*    border: 1px solid #2D1D09;*/
+}
+
+/*Style for dropdown links*/
+nav li:hover ul a {
+	background: #2D1D09;
+	color: #C7AC81;
+	height: 40px;
+	line-height: 40px;
+/*    width: inherit;*/
+}
+
+/*Hover state for dropdown links*/
+nav li:hover ul a:hover {
+	background: #C7AC81;
+	color: #2D1D09;
+}
+
+/*ended Nav **********************************e/
+
+/***************FOOTER***************/
+footer {
+	background: #C7AC81;
+	height: 50px;
+	line-height: 50px;
+	clear: both;
+	border: 2px solid #2D1D09;
+}
+
+footer li {
+	float: left;
+	width: 33.33%;
+	list-style-type: none;
+	text-align: center;
+  display: inline-block;
+}
+
+footer ul {
+	display: block;
+	font-weight: bold;
+	font-size: 1em;
 }
