@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
-  res.render('newuser', { title: 'Express' });
+  res.render('logout', { title: 'Log Out' });
 
 });
 
