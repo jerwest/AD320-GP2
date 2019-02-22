@@ -4,6 +4,24 @@ This repository is for Group Project #2 in AD 320 - Web App Development at North
 Seattle College.
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~Group Project #2 - Sprint #1~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Group Project #2 - Sprint #1 - Liteweight Fitness Tracker (LFT)
+
+https://github.com/jerwest/AD320-GP2/
+
+Jeremy  - Created wireframes, worked on login page- basics competed, more design and functionality  carrying over to the next sprint , created additional routs for other pages amd modified app.js file to include them. Styled home page - continuin. Created develop branch for Node express.
+
+Iryna  - pugs templates for header, nav and footer. Helped team with routes and app.js. CSS for assigned elements 
+
+Sanford - Worked on activity page, basics completed , design and  form hadling carin over till next sprint. Started working on SQL in express, created activity route and its  connection in app.js. Created mock up HTML pages with Laila
+
+Laila - created wireframes of HTML for login page and new user page. Used pug and javascript to render the two pages through Node Express.Created mock up HTML pages with Sanford
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~~~~~~~~~~~~~~~Group Project #2 - Sprint #0~~~~~~~~~~~~~~~~~~~
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
