@@ -1,15 +1,21 @@
 extends layout
 
 block content
-  h1 Activity Page
+  h1= title
+  p
 
   div
     form(action = "" method = "POST")
-    p Username
-      input(type = "text" placeholder ="")
+    p Weight
+      input(type = "text" placeholder = "example: 150")
 
-    p Password
-      input(type = "text" placeholder ="")
+    p Calorie Intake
+      input(type = "text" placeholder = "example: 2000")
 
-    p Submit
-      input(type = "submit"  placeholder ="")
+    p Calories Burned
+      input(type = "text"  placeholder = "example: 3000")
+
+    p Hours Slept
+      input(type = "text" placeholder = "example: 8")
+
+    button.btn.btn-primary(type='submit') submit
