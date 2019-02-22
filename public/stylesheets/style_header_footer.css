@@ -1,0 +1,183 @@
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  /*color: #00B7FF;*/
+}
+
+.container.wrapper {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+}
+
+/*************HEADER**********/
+
+div#header{
+
+  background-color: #fffbe5;
+  background-image: url("../images/pug_exercise.png");
+  height: 200px;
+	width: 80%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+img.header {
+  margin-top: 3%;
+    float: left;
+    margin-left: 3%;
+
+}*/
+/*
+div#logo{
+  float:left;
+  clear: both;
+  width: 40%;
+  margin-left: 3%;
+}
+*/
+div#icons{
+  float:left;
+  width: 50%;
+}
+
+img#logo{
+
+  float:right;
+
+  width: 40%;
+  margin-right: 1%;
+  border: 1px solid #FFF8DC;
+  border-radius: 5%;
+
+}
+/*
+img#logo_shoe{
+  margin-top: 1%;
+  float:left;
+  margin-bottom: 2%;
+  width: 50%;
+
+}
+*/
+/*************NAV BAR**********/
+nav {
+
+  height: 50px;
+  width: 80%;
+  	max-width: 1100px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	background: #C7AC81;
+}
+
+nav ul{
+
+	font-weight: bold;
+	font-size: 1em;
+
+}
+
+nav li {
+  width: 19%;
+  display: inline-block;
+
+
+}
+nav li a {
+	text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #2D1D09;
+	background: #C7AC81;
+	text-decoration: none;
+}
+
+/*Hover state for top level links*/
+nav li:hover a {
+	background: #2D1D09;
+    color: #C7AC81;
+/*    border: 1px solid #2D1D09;*/
+}
+
+/*Style for dropdown links*/
+nav li:hover ul a {
+	background: #2D1D09;
+	color: #C7AC81;
+	height: 40px;
+	line-height: 40px;
+/*    width: inherit;*/
+}
+
+/*Hover state for dropdown links*/
+nav li:hover ul a:hover {
+	background: #C7AC81;
+	color: #2D1D09;
+}
+
+/***************FOOTER***************/
+footer {
+	width: 80%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #C7AC81;
+	height: 50px;
+	line-height: 50px;
+	clear: both;
+	border: 2px solid #2D1D09;
+}
+
+footer li {
+	float: left;
+	width: 33.33%;
+	list-style-type: none;
+	text-align: center;
+  display: inline-block;
+}
+
+footer ul {
+	display: block;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/*===============================================*/
+.container.main {
+    width: 62.4%;
+    height: 100%;
+    margin: 0% 1.06% 2.13% 2.13%;
+    background: #C7AC81;
+    float: left;
+}
+
+.container.aside_top {
+    width: 31.2%;
+    height: 100%;
+    margin: 0% 2.13% 2.13% 1.06%;
+    float: right;
+    background: #C7AC81;
+}
+
+.container.aside_middle {
+    width: 31.2%;
+    height: 100%;
+    margin: 0% 2.13% 2.13% 1.06%;
+    float: right;
+}
+
+.container.aside_bottom {
+    width: 31.2%;
+    height: 100%;
+    margin: 0% 2.13% 2.13% 1.06%;
+    float: right;
+    background: #C7AC81;
+}
