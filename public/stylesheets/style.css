@@ -7,7 +7,7 @@ a {
   /*color: #00B7FF;*/
 }
 
-.container.wrapper {
+.container.home_wrapper {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto 0 auto;
@@ -111,7 +111,7 @@ footer ul {
 }
 
 
-.container.main {
+.container.home_main {
     width: 62.4%;
     height: 100%;
     margin: 0% 1.06% 2.13% 2.13%;
@@ -119,22 +119,22 @@ footer ul {
     float: left;
 }
 
-.container.aside_top {
-    width: 31.2%;
+.container.home_aside_top {
+    width: 31.2%;;
     height: 100%;
     margin: 0% 2.13% 2.13% 1.06%;
     float: right;
     background: #C7AC81;
 }
 
-.container.aside_middle {
+.container.home_aside_middle {
     width: 31.2%;
     height: 100%;
     margin: 0% 2.13% 2.13% 1.06%;
     float: right;
 }
 
-.container.aside_bottom {
+.container.home_aside_bottom {
     width: 31.2%;
     height: 100%;
     margin: 0% 2.13% 2.13% 1.06%;
