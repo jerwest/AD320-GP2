@@ -1,16 +1,18 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
 
-    div
-      form(action = "/new" method = "POST")
-      p Username
-        input(type = "text" placeholder ="")
+    div.container.home_wrapper
+		div.container.home_main
+            h1 Wecome to Liteweight Fitness Tracker!
+              h1= title
+              p Welcome to #{title}
+              form(action = "/new" method = "POST")
+                  p Username
+                    input(type = "text" placeholder ="")
 
-      p Password
-        input(type = "text" placeholder ="")
+                  p Password
+                    input(type = "text" placeholder ="")
 
-      p Submit
-        input(type = "submit"  placeholder ="")
+                  p Submit
+                    input(type = "submit"  placeholder ="")
