@@ -1,15 +1,17 @@
 extends layout
 
 block content
-  h1 Logout Page
+    div.container.home_wrapper
+        div.container.home_main
+          h1 Logout Page
 
-  div
-    form(action = "" method = "POST")
-    p Username
-      input(type = "text" placeholder ="")
+          div
+            form(action = "" method = "POST")
+            p Username
+              input(type = "text" placeholder ="")
 
-    p Password
-      input(type = "text" placeholder ="")
+            p Password
+              input(type = "text" placeholder ="")
 
-    p Submit
-      input(type = "submit"  placeholder ="")
+            p Submit
+              input(type = "submit"  placeholder ="")
