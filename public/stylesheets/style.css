@@ -1,0 +1,75 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  /*color: #00B7FF;*/
+}
+
+.container.home_wrapper {
+    width: 80%;
+    max-width: 1100px;
+    margin: 20px auto 0 auto;
+    overflow: hidden;
+}
+
+.container.home_main {
+    width: 62.4%;
+    height: 100%;
+    margin: 0% 1.06% 2.13% 2.13%;
+    background: #C7AC81;
+    float: left;
+}
+
+.container.home_aside_top {
+    width: 31.2%;
+    height: 100%;
+    margin: 0% 2.13% 2.13% 1.06%;
+    float: right;
+    background: #C7AC81;
+}
+
+.invite_friend {
+	margin: 5px 0 15px 15px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+input[type=email] {
+	width: 80%;
+}
+
+textarea {
+	width: 80%;
+}
+/*
+.form-control {
+	margin: 5px 0 0 5px;
+}
+
+.btn-primary_invite_friend {
+	margin: 5px 0 0 5px;
+} */
+
+.container.home_aside_middle {
+    width: 31.2%;
+    height: 100%;
+    margin: 0% 2.13% 2.13% 1.06%;
+    float: right;
+}
+
+.container.home_aside_bottom {
+    width: 31.2%;
+    height: 100%;
+    margin: 0% 2.13% 2.13% 1.06%;
+    float: right;
+    background: #C7AC81;
+}
+
+/* .invite_friend {
+	height: 20px;
+	width: 80%;
+} */

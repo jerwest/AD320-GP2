@@ -1,17 +1,27 @@
 extends layout
 
 block content
-    div.container.home_wrapper
-        div.container.home_main
-          h1 Contact Page
 
-          div
-            form(action = "" method = "POST")
-            p Username
-              input(type = "text" placeholder ="")
+	div.container.home_wrapper
+		div.container.home_main
+			h1 Wecome to Liteweight Fitness Tracker!
+			p Cool Pug example!Lorem ipsum dolor amet organic marfa neutra tote bag direct trade cloud bread vexillologist, cronut crucifix venmo. Man bun fanny pack pour-over poke church-key cornhole bicycle rights farm-to-table fashion axe fixie meggings kombucha. Pug taiyaki live-edge flexitarian etsy. Kitsch live-edge street art vexillologist schlitz offal. Synth lyft tofu knausgaard hexagon skateboard.
 
-            p Password
-              input(type = "text" placeholder ="")
+			p Deep v squid +1 viral craft beer marfa. PBR&B letterpress ethical, jean shorts selvage four dollar toast coloring book pickled hella shabby chic taxidermy hoodie cardigan austin. Swag you probably haven't heard of them deep v copper mug tbh. Letterpress coloring book fingerstache cray quinoa enamel pin. Freegan raclette taxidermy, everyday carry brooklyn roof party kitsch leggings.
 
-            p Submit
-              input(type = "submit"  placeholder ="")
+		div.container.home_aside_top
+
+					// invite a friend form
+					form.invite_friend(method='POST' action='/invite_friend')
+						div.form-group
+							h2 Invite A Friend Today
+						div.form-group
+							label(for='email') Email:
+							br
+							input#email.form-control(type='email', placeholder='name@email.com' name='email')
+						div.form-group
+							label(for='message') Message:
+							br
+							textarea(rows="5", placeholder='Hello, Friend!  Join me on Liteweight Fitness Tracker so that we can motivate each other to better health.', name='message')
+
+						button.btn.btn-primary_invite_friend(type='submit') Submit
