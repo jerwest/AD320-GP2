@@ -1,3 +1,5 @@
+**********TO COMPLETE**********
+
 NEW USER STORIES (aim to complete)
 1. as a user when I want to change my password then I click on change password button and enter my old password and my new password and click change and it will change my password in a database/session
 2. as a user when I enter password that is too short, doesn’t match criteria etc then page will tell – “invalid password, must contain….etc”
@@ -16,3 +18,7 @@ NICE-TO-HAVE'S (if enough time)
 2. as a user, when I hover over a recipe then I get to see two other recipes BY the photo changing one at a time
 3. as a user , when I hover over motivational quotes then the quote appears bigger
 4. as a user, when I click  to convert my weight from kilo to pounds or vise versa then I see the results of the conversion
+
+
+**********COMPLETED**********
+1. as a user, the database needs to be set up as an api, so that data can start to be CRUD
