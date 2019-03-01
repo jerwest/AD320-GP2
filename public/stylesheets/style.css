@@ -126,7 +126,9 @@ footer ul {
     height: 100%;
     margin: 0% 2.13% 2.13% 1.06%;
     float: right;
-    background: #C7AC81;
+   /* background: #C7AC81;*/
+    background: #EEE8AA;
+    overflow: hidden;
 }
 
 .container.home_aside_middle {
