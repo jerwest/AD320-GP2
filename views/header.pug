@@ -2,9 +2,12 @@ link(rel='stylesheet', href='/stylesheets/style_header_footer.css')
 
 div#header
   div#icons
-    img.header(src = '../images/facebook.png',  alt = "Facebook")
-    img.header(src = "../images/instagram.png" alt = "Instagram")
-    img.header(src = "../images/twitter.png", alt = "Twitter")
+    a(href='https://facebook.com')
+        img.header(src = '../images/facebook.png',  alt = "Facebook")
+    a(href='https://instagram.com')
+        img.header(src = "../images/instagram.png" alt = "Instagram")
+    a(href='https://twitter.com')
+        img.header(src = "../images/twitter.png", alt = "Twitter")
 nav
   ul
   li
