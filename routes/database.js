@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mysql = require('mysql');
-var credentials = require('../credentials.json');
+var credentials = require('../../credentials.json');
 var connect = mysql.createConnection(credentials);
 // connect to sql
 connect.connect(function(err) {
