@@ -8,7 +8,8 @@ var indexRouter = require('./routes/index');
 var homeRouter = require('./routes/home');
 var activityRouter = require('./routes/activity');
 var contactRouter = require('./routes/contact');
-var logoutRouter = require('./routes/logout')
+var logoutRouter = require('./routes/logout');
+var termsRouter = require('./routes/terms');
 
 var app = express();
 
@@ -27,6 +28,7 @@ app.use('/home', homeRouter);
 app.use('/activity', activityRouter);
 app.use('/contact', contactRouter);
 app.use('/logout', logoutRouter);
+app.use('/terms', termsRouter);
 
 
 // catch 404 and forward to error handler
