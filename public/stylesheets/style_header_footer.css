@@ -20,7 +20,7 @@ a {
 div#header{
 
   background-color: #fffbe5;
-  background-image: url("../images/pug_exercise.png");
+  /*background-image: url("../images/pug_exercise.png");*/
   height: 200px;
 	width: 80%;
 	max-width: 1100px;
@@ -43,10 +43,14 @@ div#logo{
 }
 */
 div#icons{
-  float:left;
-  width: 50%;
+  float:right;
+  width: 10%;
 }
 
+div#logo{
+  float:left;
+  width:10%;
+}
 img#logo{
 
   float:right;

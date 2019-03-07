@@ -10,12 +10,22 @@ connect.connect(function(err) {
   // create database
   /*connect.query('CREATE DATABASE fitness_tracker', function(err, result) {
     if (err) throw err;
-    console.lot('Database created');*/
+    console.log('Database created');*/
 
     // create table
     var sql = 'CREATE TABLE CUSTOMER(FirstName Char(20), LastName Char(20))';
     connect.query(sql, function(err, result) {
       console.log('table created');
+    });
+
+    var sql = 'ALTER TABLE CUSTOMER ADD COLUMN Weight Numeric(5,2)';
+    connect.query(sql, function(err, result) {
+      console.log('column added');
+    });
+
+    var sql = 'INSERT INTO CUSTOMER(Weight)';
+    connect.query(sql, function(err, result) {
+      console.log('weight added');
     });
   });
 

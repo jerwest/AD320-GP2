@@ -1,13 +1,18 @@
 link(rel='stylesheet', href='/stylesheets/style_header_footer.css')
 
 div#header
+  div#logo
+    a(href = 'home')
+      img.header(src = '../images/logo.png', alt = 'logo')
   div#icons
-    a(href='https://facebook.com')
-        img.header(src = '../images/facebook.png',  alt = "Facebook")
-    a(href='https://instagram.com')
-        img.header(src = "../images/instagram.png" alt = "Instagram")
-    a(href='https://twitter.com')
-        img.header(src = "../images/twitter.png", alt = "Twitter")
+
+    a(href = 'https://www.facebook.com')
+      img.header(src = '../images/facebook.png',  alt = "Facebook")
+    a(href = 'https://www.instagram.com')
+      img.header(src = "../images/instagram.png" alt = "Instagram")
+    a(href = 'https://www.twitter.com')
+      img.header(src = "../images/twitter.png", alt = "Twitter")
+
 nav
   ul
   li
