@@ -12,7 +12,21 @@ block content
 			p Echo park cornhole fashion axe, actually mustache chambray live-edge freegan yuccie lumbersexual 90's narwhal pork belly. Cornhole unicorn mumblecore migas freegan VHS selfies fashion axe 3 wolf moon listicle letterpress glossier raw denim direct trade kinfolk. Deep v beard intelligentsia fanny pack lomo pinterest blue bottle bushwick fixie hoodie vegan quinoa celiac subway tile. Meditation microdosing pork belly messenger bag heirloom wayfarers mixtape. Truffaut pug thundercats butcher woke portland selvage meh. Sustainable godard whatever ethical kitsch hammock meggings lumbersexual readymade waistcoat health goth organic cardigan.
 
 		div.container.home_aside_top
-			p Prism fashion axe lo-fi meh, austin umami everyday carry godard adaptogen tofu chillwave. Jianbing salvia pok pok, unicorn tbh sriracha try-hard dreamcatcher keffiyeh hammock hella wolf four loko. Twee sriracha chillwave stumptown beard gastropub tofu fixie thundercats pickled photo booth fashion axe put a bird on it.
+
+			// invite a friend form
+			form.invite_friend(method='POST' action='/invite_friend')
+				div.form-group
+					h2 Invite A Friend Today
+				div.form-group
+					label(for='email') Email:
+					br
+					input#email.form-control(type='email', placeholder='name@email.com' name='email')
+				div.form-group
+					label(for='message') Message:
+					br
+					textarea(rows="5", placeholder='Hello, Friend!  Join me on Liteweight Fitness Tracker so that we can motivate each other to better health.', name='message')
+
+				button.btn.btn-primary_invite_friend(type='submit') Submit
 
 		div.container.home_aside_middle
 			p Meh salvia listicle man bun direct trade. Tacos health goth 8-bit banjo fixie normcore. Brunch brooklyn franzen deep v flannel, kinfolk organic readymade gochujang fanny pack.

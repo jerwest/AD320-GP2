@@ -7,20 +7,27 @@ block content
               p
 
               div
+
                 form(action = "../activity.js" method = "POST")
                 p Weight
-                  (type = "text" placeholder = "example: 150")
+                  input(type = "text" placeholder = "example: 150")
 
                 p Calorie Intake
-                  (type = "text" placeholder = "example: 2000")
+                  input(type = "text" placeholder = "example: 2000")
 
-                p Calories Burned
-                  input(type = "text"  placeholder = "example: 3000")
+             
+                p(id= "weight_label")  Weight
+                   input(type = "number"  name = "weight" id = "weight" placeholder = "example: 150")
 
-                p Hours Slept
-                  input(type = "text" placeholder = "example: 8")
+                p(id = "calIn_label") Calorie Intake
+                   input(type = "number" id = "calIn"  name = "calIn" placeholder = "example: 2000")
 
-                p Activity type
-                  input(type = "text" placeholder = "running")
 
-                button.btn.btn-primary(type='submit') submit
+                p(id = "calBurn_label") Calories Burned
+                   input(type = "number" id = "calBurn" name = "calBurn" placeholder = "example: 3000")
+
+                p(id = "sleep_label") Hours Slept
+                   input(type = "number" id = "sleep" name= "sleep" placeholder = "example: 8")
+
+                button.btn.btn-primary(type='submit' id = 'submit') submit
+
