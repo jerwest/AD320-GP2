@@ -8,10 +8,8 @@ MVP - NEW USER STORIES
 
 MVP - OLD USER STORIES
 1. as a user, when I look at and interact with the page, I expect to have a pleasant UX experience, especially with the potential for information overload
-2. as a user, it is clear to me that I enter the right data into the form fields (it shows example)
-3. as a user, when I hover over the nav bar, I want to see it highlight to show me interaction
-4. as a user, when I enter my values in the daily activity fields and click submit, the site collects my info in a database
-5. as a user, when I click out of each field, it shows info in an aside, line by line as entered
+2. as a user, when I enter my values in the daily activity fields and click submit, the site collects my info in a database
+3. as a user, when I click out of each field, it shows info in an aside, line by line as entered
 
 
 **********COMPLETED**********
@@ -25,3 +23,5 @@ Mar 7th, 2019
 2. as a user, when I  click on a social media icon, it takes me to that site
 3. as a user, when I want to know Terms & Conditions, I click on it in footer, and it takes me to it
 4. as a user, when I click on the company logo, it takes me to the home page, no matter which page I am on
+5. as a user, when I hover over the nav bar, I want to see it highlight to show me interaction
+6. as a user, it is clear to me that I enter the right data into the form fields (it shows example)
