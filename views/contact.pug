@@ -4,10 +4,25 @@ block content
 
 	div.container.home_wrapper
 		div.container.home_main
-			h1 Wecome to Liteweight Fitness Tracker!
-			p Cool Pug example!Lorem ipsum dolor amet organic marfa neutra tote bag direct trade cloud bread vexillologist, cronut crucifix venmo. Man bun fanny pack pour-over poke church-key cornhole bicycle rights farm-to-table fashion axe fixie meggings kombucha. Pug taiyaki live-edge flexitarian etsy. Kitsch live-edge street art vexillologist schlitz offal. Synth lyft tofu knausgaard hexagon skateboard.
 
-			p Deep v squid +1 viral craft beer marfa. PBR&B letterpress ethical, jean shorts selvage four dollar toast coloring book pickled hella shabby chic taxidermy hoodie cardigan austin. Swag you probably haven't heard of them deep v copper mug tbh. Letterpress coloring book fingerstache cray quinoa enamel pin. Freegan raclette taxidermy, everyday carry brooklyn roof party kitsch leggings.
+			// invite a friend form
+			form.invite_friend(method='POST' action='/invite_friend')
+				div.form-group
+					h1 Questions?  Contact Us Today
+				div.form-group
+					label(for='email') Email:
+					br
+					input#email.form-control(type='email', placeholder='name@email.com' name='email')
+				div.form-group
+					label(for='topic') Topic:
+					br
+					input#topic.form-control(type='topic', placeholder='For Example: Login Issues, Advertising, Data Entry, Other' name='topic')
+				div.form-group
+					label(for='message') Message:
+					br
+					textarea(rows="5", placeholder='Enter message here...', name='message')
+
+				button.btn.btn-primary_invite_friend(type='submit') Submit
 
 		div.container.home_aside_top
 
