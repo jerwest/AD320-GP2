@@ -142,7 +142,7 @@ footer li {
 	display: inline-block;
 }
 
-footer li a, p {
+footer li a, footer li p {
 	height: 30px;
 	line-height: 30px;
 	margin-top: auto;
