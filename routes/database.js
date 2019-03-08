@@ -23,10 +23,15 @@ connect.connect(function(err) {
       console.log('column added');
     });
 
-    var sql = 'INSERT INTO CUSTOMER(Weight)';
-    connect.query(sql, function(err, result) {
+    connect.query('INSERT INTO CUSTOMER SET ?', "weight", (err, result, fields) => {
+
+        console.log('added')
+
+    })
+
+
       console.log('weight added');
-    });
+
   });
 
 
