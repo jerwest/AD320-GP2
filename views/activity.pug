@@ -1,0 +1,36 @@
+extends layout
+
+block content
+    div.container.home_wrapper
+        div.container.home_main
+              h1= title
+              p
+
+              div
+
+                form app.post("../activity.js" method = "POST")
+                p Weight
+                  input(type = "text" placeholder = "example: 150")
+
+                p Calorie Intake
+                  input(type = "text" placeholder = "example: 2000")
+
+                p
+                  label(for='weight') Weight:
+                  input#weight.form-control(type='text', placeholder='weight' name='weight')
+
+
+                p(id= "weight_label")  Weight
+                   input(type = "number"  name = "weight" id = "weight" placeholder = "example: 150")
+
+                p(id = "calIn_label") Calorie Intake
+                   input(type = "number" id = "calIn"  name = "calIn" placeholder = "example: 2000")
+
+
+                p(id = "calBurn_label") Calories Burned
+                   input(type = "number" id = "calBurn" name = "calBurn" placeholder = "example: 3000")
+
+                p(id = "sleep_label") Hours Slept
+                   input(type = "number" id = "sleep" name= "sleep" placeholder = "example: 8")
+
+                button.btn.btn-primary(type='submit' id = 'submit') submit

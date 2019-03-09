@@ -1,0 +1,22 @@
+extends layout
+
+block content
+
+    div.container.home_wrapper
+        div.container.home_main
+            h1 Login Page
+            form(action = "" method = "POST")
+            p Username
+              input(type = "text" placeholder ="")
+
+            p Password
+              input(type = "text" placeholder ="")
+
+            p Submit
+              input(type = "submit"  placeholder ="")
+
+            p
+              input(type = "submit"  placeholder ="" value = "Change Password")
+
+            p Want to join?
+              a(href = 'newuser')  Click here

@@ -1,0 +1,42 @@
+extends layout
+
+block content
+
+	div.container.home_wrapper
+		div.container.home_main
+
+			// contact form
+			form.contact_info(method='POST' action='/contact')
+				div.form-group
+					h1 Questions?  Contact Us Today
+				div.form-group
+					label(for='email') Email:
+					br
+					input#email.form-control(type='email', placeholder='name@email.com' name='contact_email')
+				div.form-group
+					label(for='topic') Topic:
+					br
+					input#topic.form-control(type='topic', placeholder='For Example: Login Issues, Advertising, Data Entry, Other' name='contact_topic')
+				div.form-group
+					label(for='message') Message:
+					br
+					textarea(rows="5", placeholder='Enter message here...', name='contact_message')
+
+				button.btn.btn-primary_invite_friend(type='submit') Submit
+
+		div.container.home_aside_top
+
+					// invite a friend form
+					form.invite_friend(method='POST' action='/contact')
+						div.form-group
+							h2 Invite A Friend Today
+						div.form-group
+							label(for='email') Email:
+							br
+							input#email.form-control(type='email', placeholder='name@email.com' name='invite_email')
+						div.form-group
+							label(for='message') Message:
+							br
+							textarea(rows="5", placeholder='Hello, Friend!  Join me on Liteweight Fitness Tracker so that we can motivate each other to better health.', name='invite_message')
+
+						button.btn.btn-primary_invite_friend(type='submit') Submit
