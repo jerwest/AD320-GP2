@@ -1,9 +1,8 @@
 **********TO COMPLETE**********
 
 MVP - NEW USER STORIES
-1. as a user, when I want to invite a friend to use the app, then I go the invite field, enter email address and submit
-2. as a user, if I want to enter less info in form, it will let me
-3. as a user, when I enter my info on the contact page and submit, then it collects my info and creates a record in the database and keeps user on a same page showing friendly message “thank you for contacting us" and reflect user's submission info
+1. as a user, if I want to enter less info in form, it will let me
+2. as a user, when I enter my info on the contact page and submit, then it collects my info and creates a record in the database and keeps user on a same page showing friendly message “thank you for contacting us" and reflect user's submission info
 
 
 MVP - OLD USER STORIES
@@ -25,3 +24,6 @@ Mar 7th, 2019
 4. as a user, when I click on the company logo, it takes me to the home page, no matter which page I am on
 5. as a user, when I hover over the nav bar, I want to see it highlight to show me interaction
 6. as a user, it is clear to me that I enter the right data into the form fields (it shows example)
+
+Mar 14th, 2019
+1. as a user, when I want to invite a friend to use the app, then I go the invite field, enter email address and submit
