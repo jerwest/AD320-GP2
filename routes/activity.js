@@ -1,6 +1,8 @@
 var express = require('express');
+var mysql = require('mysql');
 var router = express.Router();
-var database = require('./database');
+var credentials = require('../../credentials.json');
+var con = mysql.createConnection(credentials);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
