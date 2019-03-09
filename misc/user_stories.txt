@@ -1,0 +1,24 @@
+**********TO COMPLETE**********
+
+NEW USER STORIES (aim to complete)
+1. as a user when I want to change my password then I click on change password button and enter my old password and my new password and click change and it will change my password in a database/session
+2. as a user when I enter password that is too short, doesn’t match criteria etc then page will tell – “invalid password, must contain….etc”
+3. as a user, when creating password, it asks me for it twice to ensure no mistakes
+4. as a user, when I click on history, I will see a graph of past history performance
+5. as a user, I can change between data points on the graph to see various activities or overlay to see all activity
+6. as a user when I want to update my record of activity in a previous day then I can look that record up and update/delete it
+7. as a user, when I want to quit the service, I can delete my account
+8. as a user, if I don't fill in all the fields, a warning pops up not all fields are entered, click okay to move forward, back to enter more info
+9. as a user, when I enter the wrong information into my activity database, then the system will warn me that it is not the correct datatype so that my data stays accurate
+10. as a user, when I hover over some element(button, picture, logo etc), then the button changes color/expands/ and the pointer changes its look to a finger instead of an arrow etc other ideas
+
+
+NICE-TO-HAVE'S (if enough time)
+1. as a user, I can upload an image file (a personal photo, logo or quote),then the page will reflect my changes
+2. as a user, when I hover over a recipe then I get to see two other recipes BY the photo changing one at a time
+3. as a user , when I hover over motivational quotes then the quote appears bigger
+4. as a user, when I click  to convert my weight from kilo to pounds or vise versa then I see the results of the conversion
+
+
+**********COMPLETED**********
+1. as a user, the database needs to be set up as an api, so that data can start to be CRUD
