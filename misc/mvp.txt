@@ -3,7 +3,7 @@
 MVP - NEW USER STORIES
 1. as a user, if I want to enter less info in form, it will let me
 2. as a user, when I enter my info on the contact page and submit, then it collects my info and creates a record in the database and keeps user on a same page showing friendly message “thank you for contacting us" and reflect user's submission info
-
+3. as a user, when I create a new account on login page, I set up an account and am able to enter the site
 
 MVP - OLD USER STORIES
 1. as a user, when I look at and interact with the page, I expect to have a pleasant UX experience, especially with the potential for information overload
@@ -15,7 +15,6 @@ MVP - OLD USER STORIES
 Feb 28th, 2019
 1. as a user, the express structure needs to be built so that I can have a solid server foundation in which to work from and web app runs off
 2. as a user, once the express foundation is built, the styling and layout of the pages (examples: home, login, contact and activity) needs to be created, so that the rest of the features can be built
-3. as a user, when I create a new account on login page, I set up an account and am able to enter the site
 
 Mar 7th, 2019
 1. as a user, when I  click on a page in the nav bar, it navigates me to that page
