@@ -11,6 +11,7 @@ var contactRouter = require('./routes/contact');
 var logoutRouter = require('./routes/logout');
 var newuserRouter = require('./routes/newuser');
 var termsRouter = require('./routes/terms');
+var inviteRouter = require('./routes/invite_friend');
 
 var app = express();
 
@@ -25,9 +26,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/home', homeRouter);
+app.use('/home', inviteRouter);
 app.use('/activity', activityRouter);
-app.use('/contact', contactRouter);
+app.use('/contact', contactRouter, inviteRouter);
+app.use('/contact', inviteRouter);
 app.use('/logout', logoutRouter);
 app.use('/newuser', newuserRouter );
 app.use('/terms', termsRouter);
