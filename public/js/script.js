@@ -8,8 +8,6 @@
     //var inputs = [weight, calIn, calBurn, sleep];
     
 
-    var mandatoryHTML = " Invalid entry. Must be values between 50 and 4000";
-
     weight.addEventListener('change', function(){
         if(activityForm.weight.value <50){
                    alert('Weight must be a number between 50 and 500');
@@ -33,5 +31,12 @@
                    alert('Daily sleep amount must in 0 - 24 hrs range');
          }
     }); 
+
+function validate(input){
+    
+    if(input == weight){
+        
+    }
+}
     
 
