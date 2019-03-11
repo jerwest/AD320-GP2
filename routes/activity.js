@@ -5,16 +5,16 @@ var credentials = require('../../credentials.json');
 var con = mysql.createConnection(credentials);
 
 router.post('/', function(req, res, next){
-  
+
 var sql = "INSERT INTO  CUSTOMER_METRICS (weight, calorie_intake, calories_burned, workout_type, length_workout, hours_slept)"
 + "VALUES (?, ?, ?, ?, ?, ?);"
 var queParams = [
-  req.body.weight,
-  req.body.calorie_intake,
-  req.body.calories_burned,
-  req.body.workout_type,
-  req.body.length_workout,
-  req.body.hours_slept
+  req.body.activity_weight,
+  req.body.activity_calorie_intake,
+  req.body.activity_calories_burned,
+  req.body.activity_type,
+  req.body.activity_length,
+  req.body.activity_sleep
   ];
 
   con.query(sql, queParams, function(err, result, fields){
