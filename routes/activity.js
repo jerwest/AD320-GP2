@@ -10,8 +10,8 @@ var sql = "INSERT INTO  CUSTOMER_METRICS (weight, calorie_intake, calories_burne
 + "VALUES (?, ?, ?, ?, ?, ?);"
 var queParams = [
   req.body.activity_weight,
-  req.body.activity_calorie_intake,
-  req.body.activity_calories_burned,
+  req.body.activity_calIn,
+  req.body.activity_calBurn,
   req.body.activity_type,
   req.body.activity_length,
   req.body.activity_sleep
