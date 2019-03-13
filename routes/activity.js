@@ -20,8 +20,7 @@ var queParams = [
   con.query(sql, queParams, function(err, result, fields){
     if(err) console.log(err)
             console.log('Please go back and enter correct value');
-      //res.status(400).send('Please go back and enter correct value');
-            // alertError();
+            res.render('error1', {title: 'Sorry, but you entered incorrect values'});
     console.log("Connected");
     res.status(201).send("Thank you. Your activity has been recorded.");
   });
