@@ -42,7 +42,7 @@ var submit = document.getElementById('submit');
     
     
 } ;
-
+//calling data validation on page
 dataCheck();
 
 function validate(){
@@ -50,3 +50,9 @@ function validate(){
            alert("Please enter valid values");
     }
 };
+
+//function for node.js to pop up message to user about error
+function alertError(){
+    
+    alert('Please go back and enter correct value');
+}
