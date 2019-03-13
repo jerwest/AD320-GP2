@@ -17,7 +17,14 @@ var queParams = [
   con.query(sql, queParams, function(err, result, fields){
     if(err) console.log(err);
     console.log("Connected");
-    res.status(201).send("Thank you for contacting us, we'll be in touch with you shortly.");
+    res.status(201).send("Thank you for contacting us, we'll be in touch with you shortly."
+		+ '</br>'
+		+ '</br>'
+		+ "Email: " + req.body.contact_email
+		+ '</br>'
+		+ "Topic: " + req.body.contact_topic
+		+ '</br>'
+		+ "Message: " + req.body.contact_message);
   });
 })
 
