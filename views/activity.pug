@@ -8,7 +8,7 @@ block content
 
               div
 
-                form.activity(method='POST' action='/activity')
+                form.activity(method='POST' action='/activity' name = "activityForm" onsubmit = "return validate()")
                   div.form-group
 
                     label(for='weight') Weight:
