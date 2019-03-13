@@ -18,7 +18,8 @@ var queParams = [
   ];
 
   con.query(sql, queParams, function(err, result, fields){
-    if(err) console.log(err);
+    if(err) console.log(err)
+      console.log('Please go back and enter correct values');
     console.log("Connected");
     res.status(201).send("Thank you. Your activity has been recorded.");
   });
@@ -31,3 +32,9 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+//adding data validation
+
+
+
+
