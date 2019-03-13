@@ -35,12 +35,9 @@ var submit = document.getElementById('submit');
                    alert('Daily sleep amount must in 0 - 24 hrs range');
             return false;
          }
-    });
-    
+    });   
      
-    return false;
-    
-    
+    return false;     
 } ;
 //calling data validation on page
 dataCheck();
