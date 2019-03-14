@@ -5,12 +5,12 @@ block content
   p Welcome to #{title}
 
     div
-      form(action = "/new" method = "POST")
+      form(method = "POST"  action = "/login" name = "loginForm")
       p Username
-        input(type = "text" placeholder ="")
+        input(type = "text" placeholder ="" name = "input")
 
       p Password
-        input(type = "text" placeholder ="")
+        input(type = "text" placeholder ="" name = "password")
 
       p Submit
         input(type = "submit"  placeholder ="")
