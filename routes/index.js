@@ -9,3 +9,14 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+/*
+router.post('/login', passport.authenticate('login', {
+    successRedirect : '/home', 
+    failureRedirect : '/login', 
+    failureFlash : true
+}));
+
+app.get('/home', function(request, response) {
+        response.render('pages/home');
+});
+*/
