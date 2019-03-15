@@ -4,6 +4,9 @@ block content
 
 
     div.container.home_wrapper
+
+
+
         div.container.home_main
           h1 New User's Page
           form(action = "/new" method = "POST")
@@ -25,3 +28,7 @@ block content
 
             p Already A User?
               a(href = '/') Login
+
+            div#newuser
+
+              img.newuser(src = '../images/newUserBackgroundImage.jpg', alt = 'new user background photo')
