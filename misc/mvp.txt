@@ -1,9 +1,7 @@
-﻿MVP - USER STORIES
+MVP - USER STORIES
 
 **********TO COMPLETE**********
 
-1. as a user, when I create a new account on login page, I set up an account and am able to enter the site
-2. as a user, when I look at and interact with the page, I expect to have a pleasant UX experience, especially with the potential for information overload
 
 
 **********COMPLETED**********
@@ -26,3 +24,7 @@ Mar 14th, 2019
 3. as a user, if I want to enter less info in form, it will let me
 4. as a user, when I enter my info on the contact page and submit, then it collects my info and creates a record in the database and keeps user on a same page showing friendly message �thank you for contacting us" and reflect user's submission info
 5. as a user, when I click out of each field, it shows info in an aside, line by line as entered
+
+
+6. as a user, when I create a new account on login page, I set up an account and am able to enter the site
+7. as a user, when I look at and interact with the page, I expect to have a pleasant UX experience, especially with the potential for information overload
