@@ -167,6 +167,11 @@ div#newuser{
 
 }
 
+div#login{
+  width: 5%;
+  margin: 20px auto 0 auto;
+}
+
 /*
 img#logo_shoe{
 	margin-top: 1%;
