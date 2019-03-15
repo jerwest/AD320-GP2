@@ -6,7 +6,7 @@ var con = mysql.createConnection(credentials);
 
 router.post('/', function(req, res, next){
 
-// testing...testing
+
 
 var sql = "INSERT INTO NEWUSER(username, passowrd, confirmpassword)" + "VALUES(?, ?, ?);"
 var queParams = [
