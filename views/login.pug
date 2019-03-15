@@ -1,11 +1,11 @@
 extends layout
 
 block content
-  h1= title
+  h1 Finaly you logged in!
   p Welcome to #{title}
 
     div
-      form(method = "POST"  action = "/login" name = "loginForm")
+      form(action = '/login' method = "POST" name = "loginForm")
       p Username
         input(type = "text" placeholder ="" name = "input")
 
