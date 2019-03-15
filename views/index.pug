@@ -5,21 +5,22 @@ block content
     div.container.home_wrapper
         div.container.home_main
             h1 Login Page
-            form(action = "/dashboard" method = "POST" onsubmit = "")
-            p Username
-              input(type = "text" placeholder ="")
+            form(action = "/login" method = "POST")
+                p Username
+                  input(type = "text" placeholder ="" name='username')
 
-            p Password
-              input(type = "text" placeholder ="")
+                p Password
+                  input(type = "text" placeholder ="" name="password")
 
-            p Submit
-              input(type = "submit"  placeholder ="")
+                p Submit
+                  input(type = "submit"  placeholder ="")
 
-            p
-              input(type = "submit"  placeholder ="" value = "Change Password")
+                p
+                  input(type = "submit"  placeholder ="" value = "Change Password")
 
             p Want to join?
               a(href = 'newuser')  Click here
 
             div#login
               img.login(src = '../images/loginBackgroundImage.jpg', alt = 'login page background photo')
+
