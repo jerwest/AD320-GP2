@@ -4,21 +4,24 @@ var mysql = require('mysql');
 var credentials = require('../../credentials.json');
 var con = mysql.createConnection(credentials);
 
-router.post('/', function(req, res, next){
+
+router.post('/newuser', function(req, res, next){
 
 
 
-var sql = "INSERT INTO NEWUSER(username, passowrd, confirmpassword)" + "VALUES(?, ?, ?);"
-var queParams = [
-  req.body.newuser_Username,
-  req.body.newuser_Password,
-  req.body.newuser_Confirmpassword
-];
+    var sql = "INSERT INTO newuser(username, password, confirmpassword)" + "VALUES(?, ?, ?);"
+    var queParams = [
+      req.body.newuser_Username,
+      req.body.newuser_Password,
+      req.body.newuser_Confirmpassword
+    ];
 
 con.query(sql, queParams, function(err, result, fields){
     if(err) console.log(err)
     console.log("Connected");
+    //res.redirect('/')
     res.status(201).send("Welcome to the Liteweight Fitness Tracker!");
+    
 });
 
 })
