@@ -1,11 +1,12 @@
 https://github.com/jerwest/AD320-GP2/
-Welcome to Project 2!
+### Welcome to Project 2!
 
-### This repository is for Web Application project  in - AD320 - Web App Development course at North
-Seattle College. ### 
+### This repository is for Web Application project  in - AD320 - Web App Development course at North Seattle College. 
 
-#### Project goal:  Use agile development(scrum) to build a fitness tracker that allows users to enter data (weight,calories, activities, body type, sleep etc.), view, manipulate it and delete, if necessary. They can view their progress and results through graphical (charts, tables, etc.) representation.
-**Technologies used : Express.js( Node), frontend JavaScript, HTML, CSS, scrum**
+#### Project goal:  Build a full stack web application Light Weight Fitness Tracker using agile development(scrum) to  that allows users to enter data (weight,calories, activities, body type, sleep etc.), view, manipulate it and delete, if necessary. They can view their progress and results through graphical (charts, tables, etc.) representation.
+**_Technologies used : Express.js( Node), frontend JavaScript, HTML, CSS, scrum_**
+
+**Project Progress:**
 
 **Light Weight FitnessTracker - Sprint #4 - Liteweight Fitness Tracker (LFT)**
 
@@ -36,7 +37,7 @@ Iryna  - Constructed pugs templates for header, nav and footer.  Helped team wit
 
 Sanford - Worked on activity page, basics completed , design and  form hadling carin over till next sprint. Started working on SQL in express, created activity route and its  connection in app.js. Created mock up HTML pages with Laila. 
 
-Laila - created wireframes of HTML for login page and new user page. Used pug and javascript to render the two pages through Node Express.Created mock up HTML pages with Sanford
+Laila - created wireframes of HTML for login page and new user page. Used pug and javascript to render the two pages through Node Express.Created mock up HTML pages with Sanford.
 
 
 **Light Weight FitnessTracker - Sprint #1 - Liteweight Fitness Tracker (LFT)**
