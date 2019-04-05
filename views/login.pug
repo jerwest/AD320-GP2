@@ -1,16 +1,16 @@
 extends layout
 
 block content
-  h1= title
+  h1 Finaly you logged in!
   p Welcome to #{title}
 
     div
-      form(action = "/new" method = "POST")
+      form(action = '/login' method = "POST" name = "loginForm")
       p Username
-        input(type = "text" placeholder ="")
+        input(type = "text" placeholder ="" name = "input")
 
       p Password
-        input(type = "text" placeholder ="")
+        input(type = "text" placeholder ="" name = "password")
 
       p Submit
         input(type = "submit"  placeholder ="")
