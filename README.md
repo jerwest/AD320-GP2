@@ -6,6 +6,8 @@ https://github.com/jerwest/AD320-GP2/
 #### Project goal:  Build a full stack web application Light Weight Fitness Tracker using agile development(scrum) to that allows users to enter data (weight, calories, activities, body type, sleep, etc.), view, manipulate it and delete, if necessary. They can view their progress and results through graphical (charts, tables, etc.) representation.
 **_Technologies used : Express.js( Node), frontend JavaScript, HTML, CSS, scrum_**
 
+![UserInterface](https://github.com/jerwest/AD320-GP2/blob/develop/public/images/SS-Act.png?raw=true "Actifity UI.JPG")
+
 **Project Progress:**
 
 **Light Weight FitnessTracker - Sprint :four: - Liteweight Fitness Tracker (LFT)**
@@ -19,6 +21,8 @@ Sanford - connected activity page to the database, enables storing and retrievin
 
 Laila - worked on newuser.pug and newuser.js and connected them to the MySQL database
 
+![UserInterface](https://github.com/jerwest/AD320-GP2/blob/develop/public/images/SS-login%202019-04-05%20at%207.42.56%20PM.png?raw=true "Login UI.JPG")
+
 **Light Weight FitnessTracker - Sprint :three:- Liteweight Fitness Tracker (LFT)**
 
 Jeremy - managed team tasks, review code and approved pull requests.  Modified MySQL My Fitness Tracker relation database. Restructured project directory to reflect current progress. Tightened header and footer Created a gitignore file to clean up the repository. Competed user story #3
@@ -29,6 +33,8 @@ Sanford - Designed database in collaboration with Jeremy, established database c
 
 Laila - Created and committed new user pug file. Approved Jeremy's pull request. Resolved Git and merge conflict
 
+![UserInterface](https://github.com/jerwest/AD320-GP2/blob/develop/public/images/SS-invite.png?raw=true "Login UI.JPG")
+
 **Light Weight FitnessTracker - Sprint :two: - Liteweight Fitness Tracker (LFT)**
 
 Jeremy  - Created wireframes, worked on login page- basics competed, more design and functionality carrying over to the next sprint, created additional routes for other pages and modified app.js file to include them. Styled home page. Created develop branch for Node express.
@@ -38,7 +44,6 @@ Iryna  - Constructed pugs templates for the header, nav, and footer.  Helped tea
 Sanford - Worked on activity page, basics completed, design and form handling caring over till next sprint. Started working on SQL in express, created activity route and its connection in app.js. Created mockup HTML pages with Laila. 
 
 Laila - created wireframes of HTML for login page and new user page. Used pug and javascript to render the two pages through Node Express. Created mockup HTML pages with Sanford.
-
 
 **Light Weight FitnessTracker - Sprint :one: - Liteweight Fitness Tracker (LFT)**
 
