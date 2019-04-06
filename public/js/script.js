@@ -67,7 +67,7 @@ var inputArray = [weight, calIn, calBurn,sleep, type, time ];
 inputArray.forEach(function(element){
     element.addEventListener('change', function(){
         
-        outputField.style= "background: #0033CC; margin: 0, auto; padding: 10px; margin-right: 5px; font-weight: 500; color: white; border : 1px solid white; border-radius: 4px;"
+        outputField.style= "background: #FF7F50; margin: 0, auto; padding: 10px; margin-right: 5px; font-weight: 500; color: white; border : 1px solid white; border-radius: 4px;"
        // console.log(element.value);
         
         switch(element){
