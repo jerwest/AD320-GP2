@@ -21,6 +21,8 @@ Sanford - connected activity page to the database, enables storing and retrievin
 
 Laila - worked on newuser.pug and newuser.js and connected them to the MySQL database
 
+![UserInterface](https://github.com/jerwest/AD320-GP2/blob/develop/public/images/SS-login%202019-04-05%20at%207.42.56%20PM.png?raw=true "Login UI.JPG")
+
 **Light Weight FitnessTracker - Sprint :three:- Liteweight Fitness Tracker (LFT)**
 
 Jeremy - managed team tasks, review code and approved pull requests.  Modified MySQL My Fitness Tracker relation database. Restructured project directory to reflect current progress. Tightened header and footer Created a gitignore file to clean up the repository. Competed user story #3
@@ -30,6 +32,8 @@ Iryna - created reset password link,  corrected layout of assigned parts. Helped
 Sanford - Designed database in collaboration with Jeremy, established database connection and route, added an API for it and JSON.  Helped Jeremy to resolve merge conflicts. Helped Laila with using Git
 
 Laila - Created and committed new user pug file. Approved Jeremy's pull request. Resolved Git and merge conflict
+
+![UserInterface](https://github.com/jerwest/AD320-GP2/blob/develop/public/images/SS-login%202019-04-05%20at%207.42.56%20PM.png?raw=true "Login UI.JPG")
 
 **Light Weight FitnessTracker - Sprint :two: - Liteweight Fitness Tracker (LFT)**
 
@@ -41,6 +45,7 @@ Sanford - Worked on activity page, basics completed, design and form handling ca
 
 Laila - created wireframes of HTML for login page and new user page. Used pug and javascript to render the two pages through Node Express. Created mockup HTML pages with Sanford.
 
+![UserInterface](https://github.com/jerwest/AD320-GP2/blob/develop/public/images/SS-invite.png?raw=true "Login UI.JPG")
 
 **Light Weight FitnessTracker - Sprint :one: - Liteweight Fitness Tracker (LFT)**
 
