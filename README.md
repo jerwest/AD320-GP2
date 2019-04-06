@@ -6,6 +6,8 @@ https://github.com/jerwest/AD320-GP2/
 #### Project goal:  Build a full stack web application Light Weight Fitness Tracker using agile development(scrum) to that allows users to enter data (weight, calories, activities, body type, sleep, etc.), view, manipulate it and delete, if necessary. They can view their progress and results through graphical (charts, tables, etc.) representation.
 **_Technologies used : Express.js( Node), frontend JavaScript, HTML, CSS, scrum_**
 
+![UserInterface](https://github.com/jerwest/AD320-GP2/blob/develop/public/images/SS-Act.png?raw=true "Actifity UI.JPG")
+
 **Project Progress:**
 
 **Light Weight FitnessTracker - Sprint :four: - Liteweight Fitness Tracker (LFT)**
